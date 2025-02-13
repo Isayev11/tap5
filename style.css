@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+
+.img{
+    width: 60vw;
+    height: 60vh;
+    background-image: url(./Без\ названия\ \(9\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+}
+.text{
+    width: 45vw;
+    background-color: white;
+    position: absolute;
+    bottom: -15px;
+    left: 13%;
+    text-align: center;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+button{
+    background-color: cadetblue;
+    padding: 20px;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+}
